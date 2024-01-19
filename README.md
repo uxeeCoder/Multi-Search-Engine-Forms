@@ -1,1 +1,2 @@
-# Multi-Search-Engine-Forms
+# Creating Custom Search Forms for Multiple Search Engines
+- Develop three separate HTML forms, each designed to submit search queries to a different search engine (Google, Bing, and Yahoo). This exercise aims to enhance your understanding of form elements and their interaction with external web services.
