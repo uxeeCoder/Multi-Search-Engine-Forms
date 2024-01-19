@@ -8,10 +8,8 @@
   </head>
   <body>
     <header>
-        <h1>Multi Search Engine Forms</h1>
-        <p>
-            Search on Multiple Search Engines at once
-        </p>
+      <h1>Multi Search Engine Forms</h1>
+      <p>Search on Multiple Search Engines at once</p>
     </header>
     <main>
       <h2 class="h2a">Google</h2>
@@ -22,7 +20,7 @@
         target="blank"
       >
         <label for="q"> <input type="text" id="q" name="q" /></label>
-        <button>Search</button>
+        <button aria-label="Press enter for search" class="b">Search</button>
       </form>
       <h2 class="h2b">Bing</h2>
       <form
@@ -32,17 +30,17 @@
         target="blank"
       >
         <label for="q"> <input type="text" id="q1" name="q" /></label>
-        <button>Search</button>
+        <button aria-label="Press enter for search" class="b">Search</button>
       </form>
       <h2 class="h2c">Yahoo</h2>
       <form
-      aria-label="Search on Yahoo"
+        aria-label="Search on Yahoo"
         action="https://search.yahoo.com/search"
         method="get"
         target="blank"
       >
         <label for="q"> <input type="text" id="q2" name="q" /></label>
-        <button aria-label="Press enter for search">Search</button>
+        <button aria-label="Press enter for search" class="b">Search</button>
       </form>
     </main>
   </body>
